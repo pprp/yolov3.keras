@@ -25,7 +25,7 @@ python yolo_video.py [video_path] [output_path (optional)]
 
 ## 效果
 
-![results](results.png)
+![results](./img/results.png)
 
 ## 训练
 
@@ -41,7 +41,7 @@ python yolo_video.py [video_path] [output_path (optional)]
     
 2. 运行 `python convert.py -w yolov3.cfg yolov3.weights model_data/yolo_weights.h5`  来获取预训练文件model_data/yolo_weights.h5 
 
-    ![1562117769379](1562117769379.png)
+    ![1562117769379](./img/1562117769379.png)
 
 3. 修改train.py
     `python train.py`  
