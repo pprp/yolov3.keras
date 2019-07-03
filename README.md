@@ -2,6 +2,12 @@
 
 ---
 
+## 说明
+
+本库是NWAFU校企实训中《基于VOC2007的常见物体的目标检测及其网络架构的设计与实现》项目，主要是使用YOLOv3进行目标检测，通过数据扩充，网络结构调整，超参数调整等对模型进行改进，尽可能提升模型准确率。
+
+具体操作如下:
+
 1. 从 [YOLO website](http://pjreddie.com/darknet/yolo/)下载权重。
 2. 使用convert.py将darknet的权重转化为keras权重
 3. 进行预测
@@ -17,7 +23,11 @@ python yolo_video.py [video_path] [output_path (optional)]
 
 4. 使用多个GPU: use `--gpu_num N` 
 
-## Training
+## 效果
+
+![results](results.png)
+
+## 训练
 
 1. 创建类文件和标注文件
     运行  `python voc_annotation.py`  
