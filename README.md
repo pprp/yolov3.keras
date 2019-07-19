@@ -32,20 +32,18 @@ python yolo_video.py [video_path] [output_path (optional)]
 1. 创建类文件和标注文件
     运行  `python voc_annotation.py`  
     得到的例子: 
-    
+
     ```
     path/to/img1.jpg 50,100,150,200,0 30,50,200,120,3
     path/to/img2.jpg 120,300,250,600,2
     ...
     ```
-    
-2. 运行 `python convert.py -w yolov3.cfg yolov3.weights model_data/yolo_weights.h5`  来获取预训练文件model_data/yolo_weights.h5 
 
-    ![1562117769379](./img/1562117769379.png)
+2. 运行 `python convert.py -w yolov3.cfg yolov3.weights model_data/yolo_weights.h5`  来获取预训练文件model_data/yolo_weights.h5 
 
 3. 修改train.py
     `python train.py`  
-    
+
     
 
 如果想用YOLOv3的基础网络作为与训练模型，执行以下步骤：
