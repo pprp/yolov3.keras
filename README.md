@@ -25,7 +25,7 @@ python yolo_video.py [video_path] [output_path (optional)]
 
 ## 效果
 
-![results](./img/results.png)
+![results](./results.png)
 
 ## 训练
 
