@@ -1,0 +1,7 @@
+
+logs/000/*
+VOCdevkit/*
+*.xml
+VOCdevkit/VOC2007/Annotations/000005.xml
+model_data/*.h5
+model_data/*.weights
